@@ -1,0 +1,18 @@
+@keyframes change {
+  0% {
+    background: lightseagreen;
+  }
+  100% {
+    background: blueviolet;
+  }
+}
+.circle {
+  width: 20vw;
+  height: 20vh;
+  margin: 20px;
+  background: lightseagreen;
+  border-radius: 50%;
+}
+.circle.active {
+  animation: change infinite 1s alternate linear;
+}

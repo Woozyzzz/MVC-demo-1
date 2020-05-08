@@ -1,0 +1,13 @@
+/* style */
+body {
+  overflow: hidden;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+section {
+  border: 1px solid #000;
+  height: 30vh;
+  width: 50vw;
+}

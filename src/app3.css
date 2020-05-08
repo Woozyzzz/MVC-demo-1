@@ -1,0 +1,10 @@
+.square {
+  margin: 5vh;
+  width: 10vw;
+  height: 10vw;
+  background-color: indianred;
+  transition: transform 1s;
+}
+.square.active {
+  transform: translateX(10vw);
+}
